@@ -1,21 +1,23 @@
-.title-bar{ 'data-hide-for' => 'medium', 'data-responsive-toggle' => 'main-menu' }
-  %button.menu-icon{ 'data-toggle' => '', :type => 'button' }
-  .title-bar-title Menu
-#main-menu.top-bar
-  .top-bar-left
-    %ul.dropdown.menu{ 'data-dropdown-menu' => '' }
-      %li.menu-text Mikael Feher
-  .top-bar-right
-    %ul.menu{ 'data-responsive-menu' => 'drilldown medium-dropdown' }
-      %li
-        = link_to t('links.projects'), "/projects.html"
-      %li
-        = link_to t('links.about'), "/about.html"
-        %li.has-submenu
-          %a{ href: '' }= t 'links.contact'
-          %ul.submenu.menu.vertical{ 'data-submenu' => '' }
-            - data.contact.each do |contact|
-              %li
-                = link_to contact[:url], target: '_blank' do
-                  %i{ class: get_icon(contact[:name]) }
-                  = contact[:name]
+%header.header
+  .title-bar{ 'data-hide-for' => 'medium', 'data-responsive-toggle' => 'main-menu' }
+    %button.menu-icon{ 'data-toggle' => '', :type => 'button' }
+    .title-bar-title Menu
+  #main-menu.top-bar
+    .top-bar-left
+      %ul.dropdown.menu{ 'data-dropdown-menu' => '' }
+        %li.menu-text Mikael Feher, Junior Web Developer
+    .top-bar-right
+      %ul.menu{ 'data-responsive-menu' => 'drilldown medium-dropdown' }
+        %li
+          = link_to t('links.projects'), "/projects.html"
+        %li
+          = link_to t('links.about'), "/about.html"
+          #contact
+          %li.has-submenu
+            %a{ href: '' }= t 'links.contact'
+            %ul.submenu.menu.vertical{ 'data-submenu' => '' }
+              - data.contact.each do |contact|
+                %li
+                  = link_to contact[:url], target: '_blank' do
+                    %i{ class: get_icon(contact[:name]) }
+                    = contact[:name]

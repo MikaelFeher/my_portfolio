@@ -1,48 +1,59 @@
-describe 'index', type: :feature do
-  before do
-    visit '/'
-  end
+  describe 'index', type: :feature do
+    before do
+      visit '/en/'
+    end
 
-  xit 'says Hey Mikey!!! with a h1 tag' do
+  it 'says Hello World with a h1 tag' do
     expect(page).to have_selector 'h1'
     within 'h1' do
-      expect(page).to have_content 'Hey Mikey!!!'
+      expect(page).to have_content 'Hello World'
+    end
+  end
+  it 'renders header partial' do
+    expect(page).to have_selector 'header'
+    within 'header' do
+      expect(page).to have_content 'Mikael Feher'
     end
   end
 
-  xit 'shows a link to documentation' do
-    expect(page).to have_css 'a', text: 'Read Documentation Online'
+  it 'shows a link to projects' do
+    expect(page).to have_css 'a', text: 'Projects'
   end
 
-  xit 'shows an image' do
-    expect(page).to have_css 'img[src="/images/middleman-logo.svg"]'
+  it 'shows a link to about page' do
+    expect(page).to have_css 'a', text: 'About Me'
   end
 
-  xit 'displays project list' do
-    expect(page).to have_css '.projects'
-    within '.projects' do
-      expect(page).to have_content 'My First Website'
-      expect(page).to have_content 'FizzBuzz'
-    end
+  it 'shows a link to contact' do
+    expect(page).to have_css 'a', text: 'Contact'
   end
 
-  xit 'renders footer partial' do
+  it 'renders footer partial' do
     expect(page).to have_selector 'footer'
     within 'footer' do
-      expect(page).to have_content 'My Portfolio'
-      expect(page).to have_content 'Built with the awsome Middleman framework'
+      expect(page).to have_content 'Copywrite Mikael Feher © 2016'
+      expect(page).to have_content 'If you want to get in touch with me please click one of the links below.'
     end
-  end
-
-  xit 'displays text added by js' do
-    expect(page).to have_text 'Added this'
   end
 
   it 'navigates to Projects page' do
     within '#main-menu' do
       click_link 'Projects'
     end
-    expect(page.current_path).to eq '/projects'
+    expect(page.current_path).to eq '/en/projects/'
+  end
+
+  xit 'displays contact list' do
+    within '#main-menu' do
+      page.find('#contact').trigger(:mouseover)
+    end
+    expect(page).to have_content 'Email'   # # expect(page).to have_css '.contact'
+    # # within '.contact' do
+    # within '#main-menu' do
+    #   click_link 'Contact'
+    # end
+
+    # expect(page).to have_content 'LinkedIn'
   end
 
 end
