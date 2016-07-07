@@ -1,18 +1,23 @@
-describe 'about', type: :feature do
+describe 'projects', type: :feature do
   before do
     visit '/en/'
   end
 
-  it 'navigates to the about me page' do
+  it 'navigates to the projects page' do
     within '#main-menu' do
-      click_link 'About Me'
+      click_link 'Projects'
     end
-    expect(page.current_path).to eq '/en/about/'
+    expect(page.current_path).to eq '/en/projects/'
   end
 
-  it 'displays About Me on the page' do
-    visit '/en/about/'
-    expect(page).to have_content 'About Me'
+  it 'displays Bootcamp Projects on the page' do
+    visit '/en/projects/'
+    expect(page).to have_content 'Bootcamp Projects'
+  end
+
+  it 'displays Prep Course Projects on the page' do
+    visit '/en/projects/'
+    expect(page).to have_content 'Prep Course Projects'
   end
 
   it 'renders header partial' do
@@ -29,5 +34,4 @@ describe 'about', type: :feature do
       expect(page).to have_content 'If you want to get in touch with me please click one of the links below.'
     end
   end
-
 end

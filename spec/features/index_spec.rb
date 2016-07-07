@@ -9,10 +9,19 @@
       expect(page).to have_content 'Hello World'
     end
   end
+
   it 'renders header partial' do
     expect(page).to have_selector 'header'
     within 'header' do
       expect(page).to have_content 'Mikael Feher'
+    end
+  end
+
+  it 'renders footer partial' do
+    expect(page).to have_selector 'footer'
+    within 'footer' do
+      expect(page).to have_content 'Copywrite Mikael Feher © 2016'
+      expect(page).to have_content 'If you want to get in touch with me please click one of the links below.'
     end
   end
 
@@ -28,13 +37,6 @@
     expect(page).to have_css 'a', text: 'Contact'
   end
 
-  it 'renders footer partial' do
-    expect(page).to have_selector 'footer'
-    within 'footer' do
-      expect(page).to have_content 'Copywrite Mikael Feher © 2016'
-      expect(page).to have_content 'If you want to get in touch with me please click one of the links below.'
-    end
-  end
 
   it 'navigates to Projects page' do
     within '#main-menu' do
