@@ -1,5 +1,9 @@
-- data.projects.each do |project|
-  %h2
-    = project[:name]
-  %p
-    = project[:description]
+.project_header
+  %h4 Bootcamp Projects
+  %br
+  =partial 'partials/bootcamp'
+
+.project_header
+  %h4 Prep Course Projects
+  %br
+  =partial 'partials/prepcourse'

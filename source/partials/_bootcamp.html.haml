@@ -1,0 +1,8 @@
+.row
+  .large-4.columns
+  -data.projects.each_slice(3) do |group|
+    .row
+    - group.each do |project|
+      .small-6.large-4.columns
+        %h5= link_to project[:name], project[:url], target: '_blank'
+        %p= project[:description]

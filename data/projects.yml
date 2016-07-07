@@ -6,6 +6,6 @@
   description: My first JavaScript project
   url: https://mikaelfeher.github.io/bmi_calculator/
 
-- name: My First Website
-  description: A simple HTML5 site I built during the Prep-Course
-  url: https://mikaelfeher.github.io
+- name: ATM-Challenge
+  description: A simple Ruby program that simulates an ATM.
+  url: https://github.com/MikaelFeher/atm_challenge
