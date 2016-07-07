@@ -1,12 +1,12 @@
 .about_me
   .row
     .small-12.medium-6.medium-offset-3.large-8.large-offset-2.columns
-      %h1= t(:about_title)
-      %p= t(:about_description)
+      %h1= t 'about.title'
+      %p= t 'about.description'
       #skills
-        %p= t(:about_skills_title)
+        %p= t 'about.skills_title'
         %ul
-        - t(:about_skills_list).each do |skill|
+        - t('about.skills_list').each do |skill|
           %li= skill
         %p
-        = t(:about_skills_end)
+        = t 'about.skills_end'

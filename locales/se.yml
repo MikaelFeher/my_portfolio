@@ -1,9 +1,10 @@
 ---
 se:
-  about_title: Om Mig
-  about_description: Efter att ha arbetat som både ordningsvakt och lokförare beslöt jag mig till slut för att uppfylla min dröm att arbeta med mjukvaru-utveckling. Jag ansökte till en intensivutbildning, en sk bootcamp, som tillhandahålls av Craft Academy. En 12 veckor lång fartfylld, informationsspäckad, känslotärande berg och dalbana som stöper om en till webbutvecklare.
-  about_skills_title: 'Laddad med färdigheter som:'
-  about_skills_list:
+  about:
+    title: Om Mig
+    description: Efter att ha arbetat som både ordningsvakt och lokförare beslöt jag mig till slut för att uppfylla min dröm att arbeta med mjukvaru-utveckling. Jag ansökte till en intensivutbildning, en sk bootcamp, som tillhandahålls av Craft Academy. En 12 veckor lång fartfylld, informationsspäckad, känslotärande berg och dalbana som stöper om en till webbutvecklare.
+    skills_title: 'Laddad med färdigheter som:'
+    skills_list:
       - Ruby, Ruby on Rails
       - JavaScript, AngularJS, Ionic
       - HTML
@@ -11,10 +12,11 @@ se:
       - Agile development methods
       - Test Driven Development
       - Behavior Driven Development
-  about_skills_end: är jag redo för utmaningar som junior webbutvecklare.
+    skills_end: är jag redo för utmaningar som junior webbutvecklare.
 
-  link_projects: Projekt
-  link_about: Om Mig
-  link_contact: Kontakt
-  link_home: Hem
+  links:
+    projects: Projekt
+    about: Om Mig
+    contact: Kontakt
+    home: Hem
   social_link_info: Om du vill kontakta mig når du mig enklast via nedanstående länkar
