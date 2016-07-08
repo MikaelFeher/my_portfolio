@@ -1,3 +1,5 @@
+require 'pry'
+
   describe 'index', type: :feature do
     before do
       visit '/en/'
@@ -45,17 +47,21 @@
     expect(page.current_path).to eq '/en/projects/'
   end
 
-  xit 'displays contact list' do
+  it 'navigates to LinkedIn', js: true do
+    # page.evaluate_script "$(\"a:contains('Contact')\").trigger('mouseenter');"
     within '#main-menu' do
-      page.find('#contact').trigger(:mouseover)
+      click_link 'LinkedIn'
     end
-    expect(page).to have_content 'Email'   # # expect(page).to have_css '.contact'
-    # # within '.contact' do
-    # within '#main-menu' do
-    #   click_link 'Contact'
-    # end
-
-    # expect(page).to have_content 'LinkedIn'
+    switch_to_window(windows.last)
+    expect(page.current_path).to eq '/in/mikael-feher-79b324105'
   end
-
 end
+
+# expect(page).to have_content 'Email'   # # expect(page).to have_css '.contact'
+# # within '.contact' do
+# within '#main-menu' do
+#   click_link 'Contact'
+# end
+
+# expect(page).to have_content 'LinkedIn'
+# expect(page).to have_css 'a', text: 'LinkedIn', visible: true

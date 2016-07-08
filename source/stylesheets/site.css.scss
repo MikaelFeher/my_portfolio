@@ -70,18 +70,29 @@ $menu-background: #222222;
 }
 
 // Body
+body {
 
+}
 * {
   font-family: Helvetica;
+}
+.img_main {
+  // size: auto;
+  // align-content: center;
+  height: 100;
+  width: 100;
+  float: left;
 }
 .intro {
   text-align: center;
   padding-top: 5% ;
+  // float: right;
 }
 .about_me {
   text-align: center;
-  padding-top: 5%
+  padding-top: 5%;
 }
+
 #skills {
   text-align: left;
 }
