@@ -76,25 +76,51 @@ body {
 * {
   font-family: Helvetica;
 }
-.img_main {
-  // size: auto;
-  // align-content: center;
-  height: 100;
-  width: 100;
-  float: left;
+.main_container {
+  padding-top: 7% ;
+  // background-color: yellow;
 }
+.intro_main {
+  display: inline-block;
+  padding-top: 7%;
+  // background-color: orange;
+
+}
+.img_main {
+  // position: sticky;
+  // background-color: red;
+  // height: 30%;
+  // width: 30%;
+  // max-width: auto;
+  float: left;
+  padding-right: 10px;
+  // padding-right: 5px;
+  // vertical-align: bottom;
+
+}
+// .placeholder {
+//   position: relative;
+//
+//   background-color: pink;
+//   bottom: 50%;
+// }
 .intro {
-  text-align: center;
-  padding-top: 10% ;
+  position: sticky;
+  bottom: 0px;
+  // height: 50%;
+  // padding-top: 10%;
+  // left: 5px;
   // float: right;
+  // vertical-align: bottom;
+
+  // background-color: blue;
+  // padding-top: 30%;
 }
 .about_me {
   text-align: center;
-  padding-top: 10%;
 }
 .blog_main {
   text-align: center;
-  padding-top: 10%;
 }
 
 #skills {
