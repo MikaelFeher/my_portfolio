@@ -9,11 +9,13 @@
     .top-bar-right
       %ul.menu{ 'data-responsive-menu' => 'drilldown medium-dropdown' }
         %li
-          = link_to t('links.projects'), "/projects.html"
+          = link_to t('links.home'), '/index.html'
         %li
-          = link_to t('links.about'), "/about.html"
+          = link_to t('links.projects'), '/projects.html'
         %li
-          = link_to t('links.blog'), "/blog.html"
+          = link_to t('links.about'), '/about.html'
+        %li
+          = link_to t('links.blog'), '/blog.html'
           #contact
           %li.has-submenu
             %a{ href: '' }= t 'links.contact'
