@@ -25,12 +25,12 @@ helpers IconHelper
 
 activate :blog do |blog|
   # This will add a prefix to all links, template references and source paths
-  # blog.prefix = 'blog'
+  # blog.prefix = '/en/blog'
 
-  blog.permalink = ':title.html'
+  blog.permalink = '/en/blog/:title.html'
   # Matcher for blog source files
   blog.sources = 'blog_articles/:title.html.yml'
-  # blog.taglink = "tags/{tag}.html"
+  # blog.taglink = "tag/{tag}.html.haml"
   # blog.layout = "layout"
   # blog.summary_separator = /(READMORE)/
   # blog.summary_length = 250
@@ -39,8 +39,8 @@ activate :blog do |blog|
   # blog.day_link = "{year}/{month}/{day}.html"
   # blog.default_extension = '.yml'
 
-  blog.tag_template = 'tag.html'
-  blog.calendar_template = 'calendar.html'
+  # blog.tag_template = 'tag.html'
+  # blog.calendar_template = 'calendar.html'
 
   # Enable pagination
   blog.paginate = true
