@@ -9,3 +9,7 @@
 - name: ATM-Challenge
   description: A simple Ruby program that simulates an ATM.
   url: https://github.com/MikaelFeher/atm_challenge
+
+- name: BMI-Calculator for mobile
+  description: Ionic project, porting the BMI-Calculator to mobile. AppID: cdd7040a.
+  url: https://github.com/MikaelFeher/bmi_calc_mobile
