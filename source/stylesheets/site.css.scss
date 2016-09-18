@@ -132,6 +132,7 @@ body {
   text-align: left;
 }
 .project_header {
+  display: block;
   text-align: center;
   padding-top: 7%;
 }
@@ -202,7 +203,7 @@ body {
     }
   }
 
-  .copywrite {
+  .copyright {
     color: #8f9296;
     font-size: 0.875rem;
     margin: 0 0 1rem 0;
