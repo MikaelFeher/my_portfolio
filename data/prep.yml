@@ -1,11 +1,14 @@
 - name: My First Website
   description: A simple HTML5 site I built during the Prep-Course
   url: https://mikaelfeher.github.io
+  img: images/HTML5_Logo_512.png
 
 - name: Modern Roman Numerals
   description: A Ruby CLI-program that converts numbers to roman numerals using the modern format, 4 = IV and 9 = IX.
   url: https://github.com/MikaelFeher/modern_roman_numerals
+  img: images/ruby_logo.png
 
 - name: Old School Roman Numerals
   description: A Ruby CLI-program that converts numbers to roman numerals using the old format, 4 = IIII and 9 = VIIII.
   url: https://github.com/MikaelFeher/old_school_roman_numerals
+  img: images/ruby_logo.png

@@ -1,13 +1,12 @@
 .main_container
   .row
     .small-12.medium-6.medium-offset-3.large-8.large-offset-2.columns
-      .about_me
-        %h2= t 'about.title'
-        %p= t 'about.description'
-        #skills
-          %p= t 'about.skills_title'
-          %ul
-          - t('about.skills_list').each do |skill|
-            %li= skill
-          %p
-          = t 'about.skills_end'
+      %h2= t 'about.title'
+      %p= t 'about.description', style: 'text-align: left'
+      #skills
+        %p= t 'about.skills_title'
+        %ul
+        - t('about.skills_list').each do |skill|
+          %li= skill
+        %p
+        = t 'about.skills_end'

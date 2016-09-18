@@ -1,15 +1,29 @@
 - name: FizzBuzz
   description: My first test driven ruby project
   url: https://mikaelfeher.github.io/fizz_buzz_js/
-
-- name: BMI-Calculator
-  description: My first JavaScript project
-  url: https://mikaelfeher.github.io/bmi_calculator/
+  img: images/ruby_logo.png
 
 - name: ATM-Challenge
   description: A simple Ruby program that simulates an ATM.
   url: https://github.com/MikaelFeher/atm_challenge
+  img: images/ruby_logo.png
+
+- name: BMI-Calculator
+  description: My first JavaScript project.
+  url: https://mikaelfeher.github.io/bmi_calculator/
+  img: images/javascript-logo.png
 
 - name: BMI-Calculator for mobile
-  description: Ionic project, porting the BMI-Calculator to mobile. AppID: cdd7040a.
+  description: Ionic project, porting the BMI-Calculator to mobile.
   url: https://github.com/MikaelFeher/bmi_calc_mobile
+  img: images/ionic.jpg
+
+- name: Bookingz
+  description: A conferenceroom booking application. Built with Ruby on Rails as backend and Javascript frontend. This was the final project for my bootcamp cohort as well as a professional project for an external customer.
+  url: https://github.com/CraftAcademy/bookingz
+  img: images/Ruby_on_Rails.png
+
+- name: Bookingz Client
+  description: A mobile application for the Bookingz project. An Ionic application to be deployed on android tablets, that in turn are mounted on the wall outside the designated conference room displaying information about the booking state of the room.
+  url: https://github.com/CraftAcademy/bookingz_client
+  img: images/ionic.jpg
