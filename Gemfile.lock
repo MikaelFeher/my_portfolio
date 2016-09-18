@@ -184,14 +184,14 @@ DEPENDENCIES
   capybara-webkit
   haml
   launchy
-  middleman (~> 4.1)
+  middleman
   middleman-blog
-  middleman-deploy (~> 2.0.0.pre.alpha)
+  middleman-deploy
   middleman-livereload
-  middleman-sprockets (~> 4.0.0.rc)
+  middleman-sprockets
   poltergeist
   pry
-  redcarpet (~> 3.3, >= 3.3.3)
+  redcarpet
   rspec
 
 RUBY VERSION

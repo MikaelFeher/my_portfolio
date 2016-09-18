@@ -2,7 +2,9 @@
 en:
   about:
     title: About me
-    description: After working as both a security guard and a traindriver I decided to finally fulfill my dream of working in software development. I applied for a bootcamp provided by Craft Academy. 12 weeks of a high-paced, information overloaded, emotionally draining rollercoaster at the end of which I will be reborn and remolded as a webdeveloper.
+    description: After working as both a security guard and a traindriver I decided to finally fulfill my dream of working in software development.
+                 I applied for a bootcamp provided by Craft Academy. 12 weeks of a high-paced, information overloaded, emotionally draining
+                 rollercoaster at the end of which I emerged remolded as a webdeveloper.
     skills_title: 'Armed with skills like:'
     skills_list:
       - Ruby, Ruby on Rails
@@ -12,7 +14,7 @@ en:
       - Agile development methods
       - Test Driven Development
       - Behavior Driven Development
-    skills_end: I will be ready to take on any challenge as a junior webdeveloper.
+    skills_end: I am ready to take on any challenge as a junior webdeveloper.
   links:
     projects: Projects
     about: About Me
