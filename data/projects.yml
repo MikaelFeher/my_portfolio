@@ -1,8 +1,3 @@
-- name: FizzBuzz
-  description: My first test driven ruby project
-  url: https://mikaelfeher.github.io/fizz_buzz_js/
-  img: images/ruby_logo.png
-
 - name: ATM-Challenge
   description: A simple Ruby program that simulates an ATM.
   url: https://github.com/MikaelFeher/atm_challenge
@@ -13,9 +8,29 @@
   url: https://mikaelfeher.github.io/bmi_calculator/
   img: images/javascript-logo.png
 
+- name: FizzBuzz JS
+  description: FizzBuzz written in JavaScript and published online.
+  url: https://mikaelfeher.github.io/fizz_buzz_js/
+  img: images/javascript-logo.png
+
 - name: BMI-Calculator for mobile
   description: Ionic project, porting the BMI-Calculator to mobile.
   url: https://github.com/MikaelFeher/bmi_calc_mobile
+  img: images/ionic.jpg
+
+- name: Cooper JS
+  description: A cooper challenge calculator(part 1 of 3). This is the logic part written in JavaScript.
+  url: https://github.com/MikaelFeher/cooper_js
+  img: images/javascript-logo.png
+
+- name: Cooper Rails
+  description: A cooper challenge calculator(part 2 of 3). This is the backend(API) part written in Ruby on Rails.
+  url: https://github.com/MikaelFeher/cooper_rails
+  img: images/Ruby_on_Rails.png
+
+- name: Cooper Ionic
+  description: A cooper challenge calculator(part 3 of 3). This is the mobile part built in the Ionic framework.
+  url: https://github.com/MikaelFeher/cooper_ionic
   img: images/ionic.jpg
 
 - name: Bookingz

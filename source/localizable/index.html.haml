@@ -2,11 +2,14 @@
   .row
     .large-8.large-offset-2.medium-8.medium-offset-2.columns
       .intro_main
-        .img_main
-          =image_tag 'profile_pic.jpg'
-        .intro
-          - CA = link_to 'Craft Academy', 'https://craftacademy.se/'
-          - GH = link_to 'GitHub', 'https://github.com/MikaelFeher'
-          %h1 Hello World
-          //%h5 I am a junior developer and a recent graduate of a coding bootcamp. With skills in Ruby, Ruby on Rails, Test Driven and Agile Development I am ready to take on the world as a junior developer.
-          %h5 As a recent graduate of #{CA}s coding bootcamp I am now ready to take on the world as a junior developer. My skill set is based in Ruby and Ruby on Rails. My development approach is test driven and Agile and version controlling through Git/#{GH} is as natural as breathing.
+        .large-4.columns
+          .img_main
+            =image_tag 'profile_pic.jpg'
+        .large-8.columns
+          .intro
+            - CA = link_to 'Craft Academy', 'https://craftacademy.se/'
+            - GH = link_to 'GitHub', 'https://github.com/MikaelFeher'
+            %h1 Hello World
+            %br
+            //%h5 I am a junior developer and a recent graduate of a coding bootcamp. With skills in Ruby, Ruby on Rails, Test Driven and Agile Development I am ready to take on the world as a junior developer.
+            %h5 As a recent graduate of #{CA}s coding bootcamp I am now ready to take on the world as a junior developer. My skill set is based in Ruby and Ruby on Rails. My development approach is test driven and Agile and version controlling through Git/#{GH} is as natural as breathing.

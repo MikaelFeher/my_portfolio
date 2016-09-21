@@ -3,6 +3,11 @@
   url: https://mikaelfeher.github.io
   img: images/HTML5_Logo_512.png
 
+- name: FizzBuzz
+  description: My first test driven ruby project
+  url: https://github.com/MikaelFeher/fizz_buzz
+  img: images/ruby_logo.png
+
 - name: Modern Roman Numerals
   description: A Ruby CLI-program that converts numbers to roman numerals using the modern format, 4 = IV and 9 = IX.
   url: https://github.com/MikaelFeher/modern_roman_numerals
