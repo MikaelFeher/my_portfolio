@@ -3,7 +3,13 @@
   -data.prep.each_slice(3) do |group|
     .row
     - group.each do |item|
-      .small-6.large-4.columns
+      .small-6.large-4.columns{style:'width: 32%; height: 250px; box-shadow: 1px 1px 3px 3px grey; padding-top: 1.5em;; margin:1em 0em 0em 1em; text-align: center'}
         = image_tag item[:img], style: 'width: 75px; height: 75px'
         %h4= link_to item[:name], item[:url], target: '_blank'
-        %h6= item[:description]
+        %h6
+        - if I18n.locale == :en 
+          = item[:description_en]
+        - else
+          = item[:description_se]
+%br
+%br

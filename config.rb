@@ -16,7 +16,8 @@ page '/*.txt', layout: false
 # General configuration
 set :relative_links, true
 activate :directory_indexes
-activate :i18n, mount_at_root: :false
+# activate :i18n, mount_at_root: :false
+activate :i18n, mount_at_root: :se
 
 ###
 # Helpers

@@ -1,5 +1,6 @@
 ---
 en:
+  intro:
   about:
     title: About me
     description: After working as both a security guard and a traindriver I decided to finally fulfill my dream of working in software development.
@@ -23,3 +24,5 @@ en:
     home: Home
     blog: Blog
   social_link_info: If you want to get in touch with me please click one of the links below.
+  projects_page_bc: Bootcamp Projects 
+  projects_page_pc: Prep Course Projects

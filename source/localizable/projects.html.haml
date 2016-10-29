@@ -1,9 +1,12 @@
 .project_header
-  %h3 Bootcamp Projects
+  %h3= t('projects_page_bc')
   %br
-  = partial 'partials/bootcamp'
+  %div{style:'margin-left: auto; margin-right: auto;'}
+    = partial 'partials/bootcamp'
 
 .project_header
-  %h3 Prep Course Projects
+  %h3= t('projects_page_pc')
   %br
-  = partial 'partials/prepcourse'
+  %div{style:'margin-left: auto; margin-right: auto;'}
+    = partial 'partials/prepcourse'
+

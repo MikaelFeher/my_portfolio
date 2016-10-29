@@ -1,19 +1,23 @@
 - name: My First Website
-  description: A simple HTML5 site I built during the Prep-Course
+  description_en: A simple HTML5 site I built during the Prep-Course.
+  description_se: En enkel HTML5 sida som jag byggde under prep-kursen.
   url: https://mikaelfeher.github.io
   img: images/HTML5_Logo_512.png
 
 - name: FizzBuzz
-  description: My first test driven ruby project
+  description_en: My first test driven ruby project.
+  description_se: Mitt första testdrivna ruby projekt.
   url: https://github.com/MikaelFeher/fizz_buzz
   img: images/ruby_logo.png
 
 - name: Modern Roman Numerals
-  description: A Ruby CLI-program that converts numbers to roman numerals using the modern format, 4 = IV and 9 = IX.
+  description_en: A Ruby CLI-program that converts numbers to roman numerals using the modern format, 4 = IV and 9 = IX.
+  description_se: Terminalprogram skrivet i Ruby som omvandlar romerska siffror. Den använder det "moderna" formatet där 4 = IV och 9 IX.
   url: https://github.com/MikaelFeher/modern_roman_numerals
   img: images/ruby_logo.png
 
 - name: Old School Roman Numerals
-  description: A Ruby CLI-program that converts numbers to roman numerals using the old format, 4 = IIII and 9 = VIIII.
+  description_en: A Ruby CLI-program that converts numbers to roman numerals using the old format, 4 = IIII and 9 = VIIII.
+  description_se: Terminalprogram skrivet i Ruby som omvandlar romerska siffror. Den använder det "gamla" formatet där 4 = IIII och 9 VIIII.
   url: https://github.com/MikaelFeher/old_school_roman_numerals
   img: images/ruby_logo.png

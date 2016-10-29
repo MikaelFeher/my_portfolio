@@ -1,44 +1,53 @@
 - name: ATM-Challenge
-  description: A simple Ruby program that simulates an ATM.
+  description_en: A simple Ruby program that simulates an ATM.
+  description_se: Ett enkelt Ruby program som simulerar en uttagsautomat.
   url: https://github.com/MikaelFeher/atm_challenge
   img: images/ruby_logo.png
 
 - name: BMI-Calculator
-  description: My first JavaScript project.
+  description_en: My first JavaScript project.
+  description_se: Mitt första JavaScript projekt.
   url: https://mikaelfeher.github.io/bmi_calculator/
   img: images/javascript-logo.png
 
 - name: FizzBuzz JS
-  description: FizzBuzz written in JavaScript and published online.
+  description_en: FizzBuzz written in JavaScript and published online.
+  description_se: FizzBuzz skrivet i JavaScript och publicerat online.
   url: https://mikaelfeher.github.io/fizz_buzz_js/
   img: images/javascript-logo.png
 
 - name: BMI-Calculator for mobile
-  description: Ionic project, porting the BMI-Calculator to mobile.
+  description_en: Ionic project, porting the BMI-Calculator to mobile.
+  description_se: Ionic projekt, portar BMI-Kalkylatorn till mobilen.
   url: https://github.com/MikaelFeher/bmi_calc_mobile
   img: images/ionic.jpg
 
 - name: Cooper JS
-  description: A cooper challenge calculator(part 1 of 3). This is the logic part written in JavaScript.
+  description_en: A cooper challenge calculator(part 1 of 3). This is the logic part written in JavaScript.
+  description_se: Program för att göra uträkningar för Coopers Test(del 1 av 3). Detta är logikdelen skriven i JavaScript. 
   url: https://github.com/MikaelFeher/cooper_js
   img: images/javascript-logo.png
 
 - name: Cooper Rails
-  description: A cooper challenge calculator(part 2 of 3). This is the backend(API) part written in Ruby on Rails.
+  description_en: A cooper challenge calculator(part 2 of 3). This is the backend(API) part written in Ruby on Rails.
+  description_se: Program för att göra uträkningar för Coopers Test(del 2 av 3). Detta är APIn skriven i Ruby on Rails.
   url: https://github.com/MikaelFeher/cooper_rails
   img: images/Ruby_on_Rails.png
 
 - name: Cooper Ionic
-  description: A cooper challenge calculator(part 3 of 3). This is the mobile part built in the Ionic framework.
+  description_en: A cooper challenge calculator(part 3 of 3). This is the mobile part built in the Ionic framework.
+  description_se: Program för att göra uträkningar för Coopers Test(del 3 av 3). Detta är mobildelen skriven i Ionic.
   url: https://github.com/MikaelFeher/cooper_ionic
   img: images/ionic.jpg
 
 - name: Bookingz
-  description: A conferenceroom booking application. Built with Ruby on Rails as backend and Javascript frontend. This was the final project for my bootcamp cohort as well as a professional project for an external customer.
+  description_en: A conferenceroom booking application. Built with Ruby on Rails as backend and Javascript frontend. This was the final project for my bootcamp cohort as well as a professional project for an external customer.
+  description_se: Bokningsapplikation för konferensrum. Backend byggd i Ruby on Rails och frontend i JavaScript. Detta är ett projekt för en extern kund och det var även avslutande projektet för min bootcamp cohort. 
   url: https://github.com/CraftAcademy/bookingz
   img: images/Ruby_on_Rails.png
 
 - name: Bookingz Client
-  description: A mobile application for the Bookingz project. An Ionic application to be deployed on android tablets, that in turn are mounted on the wall outside the designated conference room displaying information about the booking state of the room.
+  description_en: A mobile application for the Bookingz project. An Ionic application to be deployed on android tablets, that are mounted on the wall outside the designated conference room displaying information about the booking state of the room.
+  description_se: Mobilapplikationen för Bookingz projektet. Ionic applikation som installeras i androidplattor, som i sin tur monteras utanför konferensrummet och visar information om rummets bokningsstatus.
   url: https://github.com/CraftAcademy/bookingz_client
   img: images/ionic.jpg
