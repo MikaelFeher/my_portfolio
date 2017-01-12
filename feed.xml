@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Blog Name</title>
+  <subtitle>Blog subtitle</subtitle>
+  <id>http://blog.url.com/</id>
+  <link href="http://blog.url.com/"/>
+  <link href="http://blog.url.com/feed.xml" rel="self"/>
+  <updated>2016-07-10T02:00:00+02:00</updated>
+  <author>
+    <name>Blog Author</name>
+  </author>
+  <entry>
+    <title>My First Test Article</title>
+    <link rel="alternate" href="http://blog.url.com/en/blog/my_first_test_article.html"/>
+    <id>http://blog.url.com/en/blog/my_first_test_article.html</id>
+    <published>2016-07-10T02:00:00+02:00</published>
+    <updated>2016-12-11T12:39:32+01:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">This is my first test blog post on my portfolio site.
+</content>
+  </entry>
+  <entry>
+    <title>My Second Test Article</title>
+    <link rel="alternate" href="http://blog.url.com/en/blog/my_second_test_article.html"/>
+    <id>http://blog.url.com/en/blog/my_second_test_article.html</id>
+    <published>2016-07-10T02:00:00+02:00</published>
+    <updated>2016-12-11T12:39:32+01:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">This is my first test blog post on my portfolio site.
+</content>
+  </entry>
+</feed>
