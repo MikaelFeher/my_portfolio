@@ -1,0 +1,13 @@
+.row
+	.large-6.large-centered.columns{style: 'margin-left: auto; margin-right: auto; background-color: red;'}
+	-data.recent_projects.each_slice(3) do |group|
+		.row
+		- group.each do |project|
+			.small-12.large-3.large-offset-3.columns{style:'width: 32%; height: 250px; box-shadow: 1px 1px 3px 3px grey; padding-top: 1.5em; margin: 1em 0em 0em 1em;'}
+				= image_tag project[:img], {style: 'width: 60px; height: 60px'}
+				%h5= link_to project[:name], project[:url], target: '_blank'
+				%h6
+				- if I18n.locale == :en
+					= project[:description_en]
+				- else
+					= project[:description_se]

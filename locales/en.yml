@@ -6,16 +6,15 @@ en:
     description: After working as both a security guard and a traindriver I decided to finally fulfill my dream of working in software development.
                  I applied for a bootcamp provided by Craft Academy. 12 weeks of a high-paced, information overloaded, emotionally draining
                  rollercoaster at the end of which I emerged remolded into a developer. I love coding and I always strive to improve my skills and
-                 to become a better developer today than I was yesterday. "If you don't learn something new every day, you are doing it wrong!".
-    skills_title: 'Armed with skills like:'
+                 to become a better developer today than I was yesterday. "If you don't learn something new every day, you are doing it wrong!". And in the true spirit of learning I am constantly adding to my skillbase. At the moment I am in the process of learning more JavaScript and jQuery and I am also starting to take my first staggering steps towards learning PHP.
+    skills_title: 'My skills include, but are not limited to:'
     skills_list:
       - Ruby
       - Ruby on Rails
-      - Agile development methods
-      - Test Driven Development
-      - Behavior Driven Development
-      - JavaScript, AngularJS, Ionic
+      - JavaScript, jQuery
       - HTML/CSS
+      - Test Driven Development
+      - Agile development methods
     skills_end: I am ready to take on any challenge as a junior developer.
   links:
     projects: Projects
@@ -24,5 +23,6 @@ en:
     home: Home
     blog: Blog
   social_link_info: If you want to get in touch with me please click one of the links below.
-  projects_page_bc: Bootcamp Projects 
+  projects_page_bc: Bootcamp Projects
   projects_page_pc: Prep Course Projects
+  projects_page_rp: Recent Projects
